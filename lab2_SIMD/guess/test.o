@@ -1,0 +1,27 @@
+
+测试字符串: "空字符串"
+标准MD5结果: d41d8cd98f00b204e9800998ecf8427e
+SIMD MD5结果: d41d8cd98f00b204e9800998ecf8427e
+结果比较: 一致 ✓
+
+测试字符串: "a"
+标准MD5结果: 0cc175b9c0f1b6a831c399e269772661
+SIMD MD5结果: 0cc175b9c0f1b6a831c399e269772661
+结果比较: 一致 ✓
+
+测试字符串: "hello world"
+标准MD5结果: 5eb63bbbe01eeed093cb22bb8f5acdc3
+SIMD MD5结果: 5eb63bbbe01eeed093cb22bb8f5acdc3
+结果比较: 一致 ✓
+
+测试字符串: "abcdefghijklmnopqrst..."
+标准MD5结果: 7f7d52a001b9d2c71b6bae1f189f41f3
+SIMD MD5结果: 7f7d52a001b9d2c71b6bae1f189f41f3
+结果比较: 一致 ✓
+
+测试字符串: "bvaisdbjasdkafkasdfn..."
+标准MD5结果: bba46eb8b53cf65d50ca54b2f8afd9db
+SIMD MD5结果: 6fb97e7d3686b4b6352e6a321bd6c6ed
+结果比较: 不一致 ✗
+
+Authorized users only. All activities may be monitored and reported.
